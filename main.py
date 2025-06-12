@@ -1,4 +1,4 @@
-import numpy as np # type: ignore
+import numpy as np
 
 #const
 ACCURACY = 85
@@ -58,8 +58,5 @@ def main():
 
     w, b = train(X, Y, EPOCHS, ALPHA)
 
-main()
-
-#print(__name__)
 if "__name__" == "__main__":
     main()
